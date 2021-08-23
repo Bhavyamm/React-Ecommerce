@@ -1,0 +1,28 @@
+.main-card {
+  /* border: 5px solid black; */
+  height: 500px;
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+  border: 0;
+  /* transition: border 5s ease-in; */
+}
+
+.main-card:hover {
+  /* border: 0.5px solid black; */
+}
+
+.cart-card-image {
+  height: 300px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.cart-card-name {
+  overflow-y: hidden;
+  text-transform: uppercase;
+}
+
+.cart-card-name-link {
+  text-decoration: none;
+}
